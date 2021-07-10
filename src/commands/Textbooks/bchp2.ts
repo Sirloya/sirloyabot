@@ -7,7 +7,7 @@ import { MessageType } from '@adiwajshing/baileys'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'bhcp2',
+            command: 'bchp2',
             description: 'Dwnload chp2',
             aliases: ['chp2'],
             category: 'textbooks',
