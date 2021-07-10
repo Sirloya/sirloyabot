@@ -19,4 +19,4 @@ export interface ICommand {
     }
 }
 
-export type TCategory = 'mcqs' | 'referencebooks' | 'resources' | 'syllabus' | 'Textbooks' | 'dev' | 'category' 
+export type TCategory = 'mcqs' | 'referencebooks' | 'resources' | 'syllabus' | 'textbooks' | 'dev' | 'category' 
