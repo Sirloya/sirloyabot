@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             description: 'Dwnload chp4',
             aliases: ['chp4'],
             category: 'textbooks',
-            usage: `${client.config.pefix}trigger [image | @mention]`
+            usage: `${client.config.prefix}trigger [image | @mention]`
         })
     }
 
