@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        M.reply('https://drive.google.com/file/d/1oMhL1U0JbAhtVXG0VeUmv-CczlUMKXg9/view?usp=sharing')
-        M.reply('Fajana paro ! Kanna Hotnaro ! \n\n        *Sir Loya*')
+        M.reply('https://drive.google.com/file/d/1oMhL1U0JbAhtVXG0VeUmv-CczlUMKXg9/view?usp=sharing \n\n\n Fajana paro ! Kanna Hotnaro ! \n\n           *Sir Loya*')
+       
     }
 }
