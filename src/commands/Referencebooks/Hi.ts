@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'hi1',
+            command: 'bref1',
             description: 'Well....',
             category: 'referencebooks',
             usage: `${client.config.prefix}hi`,
@@ -15,6 +15,6 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        M.reply('Context :1 \n\n chapter1 \n\n chapter2')
+        M.reply('https://drive.google.com/u/0/uc?id=1bQ0zs_QzFzQ0q5XqFu4mY3ITEPa_jlo_&export=download  \n\n\n   Kanna Hotnaro !! \n\n           *Sir loya*')
     }
 }
